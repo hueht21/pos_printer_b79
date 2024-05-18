@@ -7,11 +7,10 @@ class FlutterBluePlus {
 
   static bool _initialized = false;
 
+
   /// native platform channel
   static final MethodChannel _methods =
       const MethodChannel('starpos_bluetooth_printer/methods');
-
-
 
   /// a broadcast stream version of the MethodChannel
   // ignore: close_sinks
