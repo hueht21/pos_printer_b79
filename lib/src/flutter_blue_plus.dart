@@ -11,6 +11,8 @@ class FlutterBluePlus {
   static final MethodChannel _methods =
       const MethodChannel('starpos_bluetooth_printer/methods');
 
+
+
   /// a broadcast stream version of the MethodChannel
   // ignore: close_sinks
   static final StreamController<MethodCall> _methodStream =
